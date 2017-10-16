@@ -12,7 +12,7 @@
 #' my_csv_reader("../../path/to.folder")
 #' }
 my_csv_reader <- function(folder){
-  assertthat::assert_that(not_empty(folder))
+  assertthat::assert_that(assertthat::not_empty(folder))
   X <- list.files(path=folder, pattern = ".*csv$", full.names = TRUE )
   result <- lapply(X, read.csv2)
   return (result)

@@ -13,7 +13,7 @@
 #' }
 #'
 multi_excel <- function(filename){
-  assertthat::assert_that(is.readable(filename))
+  assertthat::assert_that(assertthat::is.readable(filename))
   sheets <- readxl::excel_sheets(filename)
   x <- lapply(sheets, function(sheet) readxl::read_excel(filename, sheet = sheet))
   names(x) <- sheets
