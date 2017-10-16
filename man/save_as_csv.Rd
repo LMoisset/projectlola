@@ -23,7 +23,7 @@ Sava a dataset in a csv file, output full csv path
 }
 \examples{
 \dontrun{
-save_as_csv(ris, "outputiris.csv", row.names=FALSE, ...)
+save_as_csv(iris, "outputiris.csv", row.names=FALSE, ...)
 }
 
 }
