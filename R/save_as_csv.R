@@ -5,6 +5,7 @@
 #' @param row.names names of the rows
 #' @param ... more parameters
 #' @importFrom utils write.csv2
+#' @importFrom utils read.csv2
 #' @import assertthat
 #'
 #' @return path to csv file
@@ -18,7 +19,7 @@
 #'
 save_as_csv <- function(dataset, filename, row.names = FALSE, ...){
   assert_that(has_extension(filename, "csv"))
-  assertthat(not_empty(dataset))
+  assert_that(not_empty(dataset))
   write.csv2(x = dataset, file = filename, row.names = row.names, ...)
   invisible(normalizePath(filename))
 }

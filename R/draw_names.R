@@ -3,6 +3,7 @@
 #' @param names names you're interested in comparing
 #' @import dplyr
 #' @import assertthat
+#' @import prenoms
 #'
 #' @return a graph
 #' @export

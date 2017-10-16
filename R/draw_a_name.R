@@ -4,6 +4,7 @@
 #' @param the_sex sex you're looking for
 #' @import ggplot2
 #' @import assertthat
+#' @import prenoms
 #'
 #' @return a graph
 #' @export
