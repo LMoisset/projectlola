@@ -1,0 +1,19 @@
+---
+title: "projetlola"
+author: "Lola Moisset"
+date: "16/10/17"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{projetlola}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+This package was created to help a user deal with datasets. 
+
+The my_csv_reader and save_as_csv functions help the user open, read and save csv files. 
+
+The multi_excel function help the user read and separate excel sheets from and excel file. 
+
+The draw_a_name and draw_names function gives an opportunity for the user to analyze the popularity of different names from 1970 to today. 
