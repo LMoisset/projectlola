@@ -12,3 +12,6 @@ Imports: readxl,
     assertthat,
     ggplot2,
     dplyr
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
